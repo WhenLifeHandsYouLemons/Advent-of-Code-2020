@@ -1,0 +1,77 @@
+# Unchanged
+Contain no other bags inside
+ plaid bronze
+ bright fuchsia
+ clear plum
+ wavy indigo
+ dim maroon
+ dark aqua
+ dotted brown
+ muted crimson
+ light tomato
+ clear maroon
+
+Contain 1 colour bag inside; which colour
+ light gray; 3 drab magenta
+ bright turquoise; 2 wavy yellow
+ wavy yellow; 3 light tomato
+ dull aqua; 2 shiny blue
+ shiny blue; 2 plaid bronze
+
+Contain 2 colour bags inside; which colour, which colour
+ faded teal; 1 vibrant beige, 5 posh crimson
+ dim plum; 2 wavy yellow, 3 bright fuchsia
+
+Contain 3 colour bags inside; which colour, which colour, which colour
+ posh crimson; 5 dark aqua, 3 posh teal, 5 dull aqua
+ posh teal; 1 clear plum, 4 faded black, 1 dim crimson
+ faded black; 4 drab magenta, 3 dim plum, 5 bright fuchsia
+ faded tomato; 1 vibrant magenta, 2 plaid cyan, 4 muted crimson
+ vibrant magenta; 2 clear maroon, 3 wavy indigo, 5 plaid bronze
+
+Contain 4 colour bags inside; which colour, which colour, which colour, which colour
+ light violet; 5 faded teal, 1 light gray bag, 4 bright turquoise, 5 posh crimson
+ vibrant beige; 2 drab magenta, 5 dim maroon, 3 bright turquoise, 3 dim plum
+ drab magenta; 4 wavy indigo, 2 dark aqua, 4 dotted brown, 2 muted crimson
+ dim crimson; 3 light tomato, 5 muted crimson, 4 plaid bronze, 2 faded tomato
+ plaid cyan; 4 clear maroon, 5 dark aqua, 1 bright fuchsia bag, 2 plaid bronze
+
+
+
+# Changed
+Contain no other bags inside
+ plaid bronze = 1
+ bright fuchsia = 1
+ clear plum = 1
+ wavy indigo = 1
+ dim maroon = 1
+ dark aqua = 1
+ dotted brown = 1
+ muted crimson = 1
+ light tomato = 1
+ clear maroon = 1
+
+Contain 1 colour bag inside; which colour
+ light gray = (3 drab magenta)
+ bright turquoise = (2 wavy yellow)
+ wavy yellow = (3 * 1)
+ dull aqua = 2 * 2
+ shiny blue = 2
+
+Contain 2 colour bags inside; which colour, which colour
+ faded teal = ((1 vibrant beige) + (5 posh crimson))
+ dim plum = ((2 wavy yellow) + (3 * 1))
+
+Contain 3 colour bags inside; which colour, which colour, which colour
+ posh crimson = ((5 * 1) + (3 posh teal) + (5 dull aqua))
+ posh teal = ((1 * 1) + (4 faded black) + (1 dim crimson))
+ faded black = ((4 drab magenta) + (3 dim plum) + (5 * 1))
+ faded tomato = ((1 * (2 + 3 + 5)) + (2 plaid cyan) + (4 * 1))
+ vibrant magenta = (2 + 3 + 5)
+
+Contain 4 colour bags inside; which colour, which colour, which colour, which colour
+ light violet = ((5 faded teal) + (1 light gray) + (4 bright turquoise) + (5 posh crimson))
+ vibrant beige = ((2 drab magenta) + (5 * 1) + (3 bright turquoise) + (3 dim plum))
+ drab magenta = ((4 * 1) + (2 * 1) + (4 * 1) + (2 * 1))
+ dim crimson = ((3 * 1) + (5 * 1) + (4 * 1) + (2 faded tomato))
+ plaid cyan = ((4 * 1) + (5 * 1) + (1 * 1 + 2))
