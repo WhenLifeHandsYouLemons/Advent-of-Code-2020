@@ -1,4 +1,4 @@
-L.LL.LL.LL
+#.LL.LL.L#
 LLLLLLL.LL
 L.L.L..L..
 LLLL.LL.LL
