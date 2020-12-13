@@ -1,0 +1,12 @@
+1006697
+13,41,641,19,17,29,661,37,23
+
+Bus ID 13 departs at 1006707.
+Bus ID 41 departs at 1006714.
+Bus ID 641 departs at 1007011.
+Bus ID 19 departs at 1006715.
+Bus ID 17 departs at 1006706.
+Bus ID 29 departs at 1006706.
+Bus ID 661 departs at 1006703.
+Bus ID 37 departs at 1006733.
+Bus ID 23 departs at 1006710.
